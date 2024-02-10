@@ -62,7 +62,7 @@ const Home = () => {
     formData.append('audio', audioBlob);
 
     try {
-      const response = await fetch('http://localhost:5000/speak', {
+      const response = await fetch(process.env.NEXT_PUBLIC_API_URL + '/speak', {
         method: 'POST',
         body: formData,
       });
