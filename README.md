@@ -1,3 +1,5 @@
+Youtube tutorial: https://www.youtube.com/watch?v=icb7i7ZpPqs
+
 # Sameday tutorial
 
 This simple project demonstrates the integration of Next.js and Python for creating virtual sales agents. Follow these straightforward steps to set up and run the project:
